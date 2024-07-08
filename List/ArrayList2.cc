@@ -3,6 +3,31 @@
 #include <vector>
 using namespace std;
 
+
+// ㅇ 일반 연산
+//      - 특정 크기를 갖는 빈 리스트의 생성 (생성된 리스트를 반환)
+//         . 例) list create(size)
+//      - 리스트 크기 (원소 수를 반환)
+//         . 例) integer size()
+//      - 빈 리스트 여부 (논리값을 반환)
+//         . 例) boolean isEmpty()
+//      - 소속 원소 전체를 반환
+//         . 例) iterator elements()                                   
+
+//   ㅇ 접근 및 갱신 연산
+//      - 원소 접근/탐색
+//         . 例) element get(index)
+//      - 원소 대체
+//         . 例) element set(index,element) 또는 element replace(index,element)
+//      - 원소 삭제 (맨 뒤,맨 앞,특정 원소)
+//         . 例) element removeFirst(), 
+//               element removeLast(),
+//               element remove(index)
+//      - 원소 삽입 (맨 뒤,맨 앞,특정 원소 뒤)
+//         . 例) boolean addFirst(elemet),
+//               boolean addLast(elemet),
+//               boolean add(index,element)
+
 template <typename T>
 class ArrayList
 {
